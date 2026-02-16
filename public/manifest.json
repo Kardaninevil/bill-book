@@ -1,0 +1,16 @@
+{
+  "name": "Radhekrishna Engineering Bill Book",
+  "short_name": "Bill Book",
+  "description": "Professional Bill Book & Factory Management System",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
