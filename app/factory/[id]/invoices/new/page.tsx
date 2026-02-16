@@ -17,7 +17,7 @@ export default async function NewInvoicePage({ params }: { params: Promise<{ id:
     const userCustomers = await db.select().from(customers).where(eq(customers.userId, session.user.id));
 
     return (
-        <div className="container mx-auto py-6 max-w-4xl">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 max-w-4xl">
             <InvoiceForm factoryId={factoryId} customers={userCustomers} />
         </div>
     );

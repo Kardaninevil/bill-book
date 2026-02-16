@@ -24,7 +24,7 @@ export default async function CustomersPage({ params }: { params: Promise<{ id: 
     const customers = await getCustomers();
 
     return (
-        <div className="container mx-auto py-6">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div className="flex items-center gap-4 mb-6">
                 <Link href={`/factory/${id}`}>
                     <Button variant="ghost" size="icon">

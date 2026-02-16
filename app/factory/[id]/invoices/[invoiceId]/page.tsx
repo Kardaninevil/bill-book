@@ -35,7 +35,7 @@ export default async function InvoicePage({ params }: { params: Promise<{ id: st
     if (!invoice) notFound();
 
     return (
-        <div className="container mx-auto py-6">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
             <div className="flex justify-end gap-2 mb-4 print:hidden">
                 <DownloadButton invoiceNo={invoice.invoiceNo} />
                 <PrintButton />
